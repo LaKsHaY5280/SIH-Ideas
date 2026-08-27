@@ -1,0 +1,10 @@
+## Problem Statement 26062
+
+| **Problem Statement ID** | 26062 |
+|---|---|
+| **Problem Statement Title** | Integrated Polar Expedition Logistics and Asset Management System |
+| **Description** | Develop a centralized digital platform for expedition planning, cargo tracking, inventory management, personnel movement and emergency response. |
+| **Organization** | Ministry of Earth Sciences (MoES) |
+| **Department** | National Centre for Polar andOcean Research (NCPOR) |
+| **Category** | Software |
+| **Theme** | Smart Automation |
