@@ -7,14 +7,14 @@
 
 ## 📑 Table of Contents
 
-| Rank | Problem Statement | Theme | Organization | Tier |
-|---|---|---|---|---|
-| 🥇 | [26107](#26107) — AI Assistant for Indian Standards (BIS) | 🤖 Smart Automation | Consumer Affairs | 🟢 |
-| 🥈 | [26108](#26108) — AI Recommendation Engine for Standards | 🤖 Smart Automation | Consumer Affairs | 🟢 |
-| 🥉 | [26031](#26031) — AI-Based Onion Quality Grading | 🤖 Smart Automation | Consumer Affairs | 🟢 |
-| 4 | [26122](#26122) — Infrastructure Progress Intelligence | 🤖 Smart Automation | Oil India | 🟢 |
-| 5 | [26090](#26090) — AI Market Linkage for Artisans | 🎭 Heritage & Culture | MoSJE | 🟢 |
-| 6 | [26027](#26027) — AI-Powered Block Planning for Railways | 🚚 Transportation & Logistics | Railways | 🟡 |
+| Rank | Problem Statement | Theme | Organization | Tier | Selection Score |
+|---|---|---|---|---|---|
+| 1 | [26107](#26107) — AI Assistant for Indian Standards (BIS) | 🤖 Smart Automation | Consumer Affairs | 🟢 Tier A | 9.2/10 |
+| 2 | [26108](#26108) — AI Recommendation Engine for Standards | 🤖 Smart Automation | Consumer Affairs | 🟢 Tier A | 9.1/10 |
+| 3 | [26031](#26031) — AI-Based Onion Quality Grading | 🤖 Smart Automation | Consumer Affairs | 🟢 Tier A | — |
+| 4 | [26122](#26122) — Infrastructure Progress Intelligence | 🤖 Smart Automation | Oil India | 🟢 Tier A | — |
+| 5 | [26090](#26090) — AI Market Linkage for Artisans | 🎭 Heritage & Culture | MoSJE | 🟢 Tier A | — |
+| 6 | [26027](#26027) — AI-Powered Block Planning for Railways | 🚚 Transportation & Logistics | Railways | 🟡 Tier B (Wildcard) | — |
 | 7 | [26132](#26132) — Market Linkages for Farmers | 🌾 Agriculture & FoodTech | Maharashtra | 🟡 |
 | 8 | [26092](#26092) — AI Scheme Matching for Entrepreneurs | 🤖 Smart Automation | MoSJE | 🟡 |
 | 9 | [26135](#26135) — Skilling Outcomes Tracking | 📊 Miscellaneous | Maharashtra | 🟡 |
@@ -36,30 +36,31 @@
 >
 > Not: "Which problem can we build successfully?"
 
-Each idea is evaluated across the **SIH evaluation framework**:
+Each idea is evaluated across these criteria:
 
-| Factor | Weight | What it means |
-|---|---|---|
-| **Novelty & Differentiation** | 25% | Is the approach genuinely novel? Can we avoid being dismissed as "ChatGPT over X"? |
-| **Demo & Communication Strength** | 20% | Can the panel understand the cause → solution → outcome in 30 seconds? Is the demo visual? |
-| **Technical Complexity & Depth** | 20% | Does this allow us to demonstrate real engineering — not just CRUD + API calls? |
-| **Impact & Sustainability** | 15% | Does it solve a genuine, large-scale problem with a clear future trajectory? |
-| **Feasibility & Fit** | 15% | Can we build a convincing prototype? Does it match our team's strengths? |
-| **Competition Risk** | 5% | How many other teams will pitch the same basic idea? |
+| Factor | What it means |
+|---|---|
+| **Novelty & Differentiation** | Is the approach genuinely novel? Can we avoid being dismissed as "ChatGPT over X"? |
+| **Demo & Communication Strength** | Can the panel understand the cause → solution → outcome in 30 seconds? Is the demo visual? |
+| **Technical Complexity & Depth** | Does this allow us to demonstrate real engineering — not just CRUD + API calls? |
+| **Impact & Sustainability** | Does it solve a genuine, large-scale problem with a clear future trajectory? |
+| **Feasibility & Fit** | Can we build a convincing prototype? Does it match our team's strengths? |
+| **Competition Risk** | How many other teams will pitch the same basic idea? |
+| **Data Availability** | Can we get or generate credible data for the demo? |
 
 ### 🏷️ Tier Framework
 
 | Tier | Meaning |
 |---|---|
-| 🟢 **Serious contender** | We should seriously consider winning with this |
-| 🟡 **Conditional** | Could be brilliant, but requires a specific advantage (domain expertise, data, team composition) |
-| 🔴 **Avoid** | Not because they're bad problems — but importance ≠ selection advantage |
+| 🟢 **Tier A — Serious final candidate** | Top-tier pick. Strong across all selection criteria. |
+| 🟡 **Tier B — Wildcard** | Huge potential, but execution risk or domain dependency keeps it conditional. |
+| 🔴 **Tier C — Deprioritized** | Not because they're bad problems — but importance ≠ selection advantage. Stop spending design effort here. |
 
 ---
 
-## 🟢 TIER 1 — Serious Contenders
+## 🟢 TIER A — Serious Final Candidates
 
-*These five problems give the highest probability of producing a solution that is technically impressive, clearly differentiated, demonstrable, and believable to a jury.*
+*These five problems — plus one wildcard — form the serious shortlist. Stop spending design effort on the other 12. The next move is a head-to-head scoring battle between these six.*
 
 ---
 
@@ -72,7 +73,7 @@ Each idea is evaluated across the **SIH evaluation framework**:
 | **Department** | Department of Consumer Affairs (DoCA) |
 | **Category** | Software |
 | **Theme** | Smart Automation |
-| **Tier** | 🟢 Serious Contender |
+| **Tier** | 🟢 Tier A — Serious Final Candidate |
 
 **Description:**
 
@@ -103,14 +104,20 @@ The assistant should understand user queries in plain language, retrieve relevan
 • Suggest relevant testing laboratories.
 • Support multilingual interaction.
 
-> **💡 Why This Ranks #1:**
+> **💡 Why This Ranks #1 — The Safest High-End Choice (9.2/10):**
 >
 > **The real opportunity:** This isn't a chatbot — it's a **domain intelligence system**. The pipeline Product → applicable standards → allied standards → certification → testing → clauses → explanation gives you AI + retrieval + reasoning + document intelligence + government utility + explainability.
 >
+> **Why it edges out 26108:**
+> - **Broad user base** — MSMEs, startups, students, consumers all need this.
+> - **Easy to explain** — panel gets it instantly.
+> - **Obvious demo** — ask a question, get sourced answers with clause references.
+> - **Lots of possible features** — you can always add depth.
+>
 > **SIH selection strengths:**
 > - **Novelty:** Strong IF your solution is considerably more sophisticated than a RAG chatbot. Everyone will pitch "RAG over BIS PDFs" — you need to differentiate.
-> - **Demo:** Visual and clear — ask a question, get sourced answers with clause references.
-> - **Impact:** Directly solves a government problem for MSMEs and startups (huge audience).
+> - **Demo:** Visual and clear.
+> - **Impact:** Directly solves a government problem for MSMEs and startups.
 > - **Complexity:** Document intelligence pipeline with multi-step reasoning.
 > - **Future trajectory:** Can evolve from assistant → domain intelligence platform.
 >
@@ -129,7 +136,7 @@ The assistant should understand user queries in plain language, retrieve relevan
 | **Department** | Department of Consumer Affairs (DoCA) |
 | **Category** | Software |
 | **Theme** | Smart Automation |
-| **Tier** | 🟢 Serious Contender |
+| **Tier** | 🟢 Tier A — Serious Final Candidate |
 
 **Description:**
 
@@ -147,9 +154,14 @@ An intelligent system is required that can automatically analyze a product descr
 • Suggest mandatory certification requirements, where applicable (e.g., BIS Product Certification, CRS, Hallmarking).
 • Support multilingual input and natural language queries.
 
-> **💡 Why This Ranks #2:**
+> **💡 Why This Ranks #2 — The Higher Differentiation Choice (9.1/10):**
 >
 > **The key insight:** "Ask BIS a question" is a chatbot. But "Upload a tender/specification and automatically determine which standards should govern this procurement" is a **decision-support system**. That's enterprise-grade.
+>
+> **Why it's almost as strong as 26107:**
+> - **More specialized** — harder for another team to imitate convincingly.
+> - **Technically deeper** — multi-stage pipeline from tender parsing to standards dependency graph.
+> - **More defensible** — a judge can see this and immediately recognize it's not trivial.
 >
 > **Pipeline:** Tender document → requirement extraction → product/domain understanding → standard retrieval → normative references → amendment/version analysis → certification requirements → procurement-ready recommendation.
 >
@@ -164,7 +176,7 @@ An intelligent system is required that can automatically analyze a product descr
 > - 26107: "Ask BIS anything" — human-facing intelligence
 > - 26108: "Give me a tender and tell me what standards I should be using" — enterprise procurement intelligence
 >
-> **26108 may be harder to replicate convincingly than 26107. That matters.**
+> **26108 may be harder to replicate convincingly than 26107. That matters. Don't assume 26107 is decisively better — they're virtually tied.**
 
 ---
 
@@ -177,7 +189,7 @@ An intelligent system is required that can automatically analyze a product descr
 | **Department** | Department of Consumer Affairs (DoCA) |
 | **Category** | Software |
 | **Theme** | Smart Automation |
-| **Tier** | 🟢 Serious Contender |
+| **Tier** | 🟢 Tier A — Serious Final Candidate |
 
 **Description:**
 
@@ -233,7 +245,7 @@ Develop an AI-based mobile application that:
 | **Department** | Oil India Limited |
 | **Category** | Software |
 | **Theme** | Smart Automation |
-| **Tier** | 🟢 Serious Contender |
+| **Tier** | 🟢 Tier A — Serious Final Candidate |
 
 **Description:**
 
@@ -309,7 +321,7 @@ A working prototype demonstrating ingestion of 2–3 varied input formats (e.g.,
 | **Department** | Department of Social Justice and Empowerment |
 | **Category** | Software |
 | **Theme** | Heritage & Culture |
-| **Tier** | 🟢 Serious Contender |
+| **Tier** | 🟢 Tier A — Serious Final Candidate |
 
 **Description:**
 
@@ -350,13 +362,13 @@ A working prototype demonstrating ingestion of 2–3 varied input formats (e.g.,
 
 ---
 
-## 🟡 TIER 2 — Conditional Contenders
+## 🟡 TIER B — Wildcard
 
-*Could be brilliant, but require a specific advantage: domain expertise, data access, or team composition.*
+*One problem with extreme upside but conditional on domain/data. Could become a top pick if the risk is managed.*
 
 ---
 
-### <a id="26027"></a>6️⃣ Problem Statement 26027
+### <a id="26027"></a>6️⃣ Problem Statement 26027 — WILDCARD
 
 | **Problem Statement ID** | 26027 |
 |---|---|
@@ -365,7 +377,7 @@ A working prototype demonstrating ingestion of 2–3 varied input formats (e.g.,
 | **Department** | Ministry of Railways |
 | **Category** | Software |
 | **Theme** | Transportation & Logistics |
-| **Tier** | 🟡 Conditional (Wildcard) |
+| **Tier** | 🟡 Tier B — Wildcard (Highest Ceiling) |
 
 **Description:**
 
@@ -385,9 +397,9 @@ Participants should build an Al system that includes:
 
 The solution should transform current decentralized and manual block planning into a data-driven, coordinated process that maximizes asset availability, improves safety, and supports reliable train operations.
 
-> **💡 Why This Ranks #6 (Wildcard):**
+> **💡 Why This Ranks #6 — But Is the Biggest Wildcard:**
 >
-> **This is a real optimization problem.** Not another CRUD/dashboard project.
+> **This is one of the most technically sophisticated problems on the entire list.** The actual core problem is **constraint optimization under competing operational constraints.**
 >
 > **What makes it powerful:**
 > - maintenance urgency
@@ -401,24 +413,14 @@ The solution should transform current decentralized and manual block planning in
 >
 > That can become a **genuine constraint optimization engine.** And that can impress technical judges considerably more than "We made a nice mobile application."
 >
-> **Pipeline:**
+> **Potential demo flow:**
 > ```
-> Current manual plan
->        ↓
-> Conflict detection
->        ↓
-> Optimization engine
->        ↓
-> Proposed plan
->        ↓
-> Asset downtime ↓
-> Block utilization ↑
-> Train disruption ↓
+> current schedule → conflicts → AI optimization → improved block allocation → measurable reduction in downtime
 > ```
 >
-> **The problem is NOT feasibility.** The problem is **domain understanding and believable data.** If you can overcome that, this is potentially a top-5 problem.
+> **The reason it's not above the BIS ideas is execution risk, not lack of quality.** The ceiling is extremely high — arguably the highest of any problem on the list. If you can get enough railway-domain understanding and construct a credible simulator, this could become your #1 choice.
 >
-> **⚠️ Conditional on:** Team having the ability to generate convincing synthetic railway data and understand enough of the domain to build a credible demo.
+> **⚠️ Conditional on:** Team having the ability to generate convincing synthetic railway data and understand enough of the domain to build a credible demo. **Don't dismiss it — keep it as a live wildcard.**
 
 ---
 
@@ -627,9 +629,9 @@ Teams may use built-in sensor and scenario datasets available in MathWorks Autom
 
 ---
 
-## 🔴 TIER 3 — Avoid Unless Special Reason
+## 🔴 TIER C — Deprioritized
 
-*Not because they're bad problems — some are very important. But importance ≠ selection advantage.*
+*Not because they're bad problems — some are very important. But importance ≠ selection advantage. Stop spending serious design effort on these.*
 
 ---
 
@@ -882,19 +884,44 @@ You have two BIS problems that share infrastructure but should have **completely
 
 ### My Actual Recommendation
 
-Right now, I would not finalize one problem yet. I would take these **five** into the serious evaluation phase:
+I'd reduce the 18 problems to **six**:
 
-1. **26107** — BIS Intelligent Assistant → Best overall
-2. **26108** — BIS Procurement Standards Engine → Best technical/differentiation
-3. **26031** — Onion Quality Grading → Best visual/demo
-4. **26122** — Infrastructure Progress Intelligence → Best engineering/automation
-5. **26090** — Artisan Digital Commerce → Best social impact
+#### 🟢 Tier A — Serious Final Candidates
 
-And keep **26027** as the wildcard if we discover that the team can realistically handle the railway-domain side.
+| ID | Problem | Why |
+|---|---|---|
+| **26107** | BIS Intelligent Assistant | Safest high-end choice — broad audience, obvious demo, easy to explain (9.2/10) |
+| **26108** | BIS Procurement Engine | Higher differentiation — more specialized, harder to imitate, more defensible (9.1/10) |
+| **26031** | Onion Quality Grading | Best "judge gets it instantly" problem — visual, immediate, clean demo |
+| **26122** | Infrastructure Progress Intelligence | Best engineering — real intelligent automation, maps to your strengths |
+| **26090** | Artisan Digital Commerce | Best social impact — strongest empowerment narrative |
 
-**The next useful step:** Do a proper judge-style scoring of these 5–6 ideas across novelty, complexity, feasibility, practicality, impact, UX, sustainability, future potential, demo strength, competition risk, and fit with your team.
+#### 🟡 Tier B — Wildcard
+
+| ID | Problem | Why |
+|---|---|---|
+| **26027** | Railway Block Planning | Highest technical ceiling — constraint optimization engine, but domain risk |
+
+**Stop spending serious design effort on the other 12.**
+
+**The next decision shouldn't be "which one sounds coolest?"** It should be a **proper head-to-head battle between these six**, scored on the actual things that determine selection:
+
+- **Novelty** — Is the approach genuinely novel?
+- **Technical depth** — Does this demonstrate real engineering?
+- **Problem clarity** — Is the problem-solution chain clear?
+- **Demo power** — Can the panel understand it in 30 seconds?
+- **Measurable impact** — Does it solve a real, large-scale problem?
+- **Feasibility** — Can we build a convincing prototype in the time available?
+- **Data availability** — Do we have or can we get the data we need?
+- **Judge appeal** — Will the jury see this as technically impressive?
+- **Competition saturation** — How many other teams will pitch the same idea?
+- **Scalability** — Does this have future growth potential?
+- **Team fit** — How well does the problem match what our team can build exceptionally well?
+
+That comparison could realistically eliminate 3–4 of these and leave you with **one clear first choice + one backup.**
 
 ---
 
 *Last updated: August 2026*
-*Ranking methodology: SIH evaluation framework (novelty, complexity, clarity, feasibility, practicability, sustainability, impact, UX, future progression)*
+*Ranking methodology: SIH evaluation framework — novelty, technical depth, demo power, impact, feasibility, competition risk, team fit*
+*Next step: Head-to-head scoring battle across the six final candidates.*
